@@ -17,12 +17,15 @@ function johnLennonFacts (arrayFacts) {
   return superFacts
 }
 
-function incrementVariable(number) {
-  var i = number + 1;
-  return i;
-}
 
 function iLoveTheBeatles (number) {
+  var i = 0;
+
+	function incrementVariable() {
+		i = i + 1;
+    return i;
+	}
+  
   var emptyArray = [];
   do {
   emptyArray.push(`I love the Beatles!`);
